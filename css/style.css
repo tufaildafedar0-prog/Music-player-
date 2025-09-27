@@ -1,0 +1,145 @@
+/* Body styles: background and font */
+body {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+/* Player container styles */
+.player {
+  max-width: 480px;
+  border-radius: 20px;
+  border: none;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* Player title with gradient text */
+.player h1 {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  background-clip: text; /* Standard property for compatibility */
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+/* Album art circle */
+.art {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* Music note icon for art */
+.art::before {
+  content: "♪";
+}
+
+/* Active playlist item */
+.playlist li.active {
+  background: linear-gradient(135deg, #667eea, #764ba2) !important;
+  color: white !important;
+  font-weight: 600;
+  border: none !important;
+  border-radius: 8px;
+}
+
+/* Playlist item styles */
+.playlist li {
+  border: none;
+  border-bottom: 1px solid #eee;
+  padding: 12px 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Playlist item hover effect */
+.playlist li:hover {
+  background-color: #f8f9fa;
+  transform: translateX(5px);
+}
+
+/* Song time display */
+.time {
+  width: 50px;
+  text-align: center;
+  font-weight: 600;
+  color: #667eea;
+}
+
+/* Custom progress bar styles */
+input[type="range"] {
+  height: 6px;
+  border-radius: 10px;
+  background: #e9ecef;
+}
+
+/* Progress bar thumb for Webkit browsers */
+input[type="range"]::-webkit-slider-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #667eea;
+  cursor: pointer;
+}
+
+/* Progress bar fill */
+#progress {
+  background: linear-gradient(90deg, #667eea, #764ba2);
+}
+
+/* Primary button styles */
+.btn-primary {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 1.2rem;
+}
+
+/* Dark button styles */
+.btn-dark {
+  background: #2d3748;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+/* Secondary button styles */
+.btn-secondary {
+  background: #718096;
+  border: none;
+  border-radius: 20px;
+}
+
+/* Success button styles */
+.btn-success {
+  background: #38a169;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Upload section container */
+.upload-row {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Form input styles */
+.form-control {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+/* Footer styles */
+footer {
+  border-top: 1px solid #e2e8f0;
+  padding-top: 15px;
+}
