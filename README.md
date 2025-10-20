@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Project Title: Music Player
 
 Description:
@@ -24,3 +25,4 @@ How to Run:
 4. Use the controls and playlist to play and manage songs.
 
 Author: Tufailhasan Dafedar
+
