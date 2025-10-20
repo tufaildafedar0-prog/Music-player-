@@ -2,7 +2,7 @@
 
 > A sleek, modern, **responsive music player** built with HTML, CSS & JavaScript. Play local audio files, manage playlists, and enjoy a fully interactive experience—right in your browser!  
 
-![Music Player Screenshot](Images/F1img.webp)  
+![Music Player Screenshot](Images/Sample.png)  
 
 ---
 
