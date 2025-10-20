@@ -32,19 +32,6 @@
 
 ---
 
-## 📂 Project Structure
-
-```bash
-Music-Player/
-├── index.html           # Main HTML file
-├── css/
-│   └── style.css        # Custom CSS and styles
-├── js/
-│   └── script.js        # JavaScript for player functionality
-├── assets/              # Default audio files (e.g., F1.mp3)
-├── Images/              # Background images (e.g., F1img.webp)
-└── README.md            # Project documentation
-
 ## 🛠️ Technologies Used
 - HTML5
 - CSS3 + **Bootstrap 5**
