@@ -1,18 +1,24 @@
-/* Body styles with background image */
+/* Keep background image always */
 body {
   background: url("../Images/F1img.webp") no-repeat center center fixed;
   background-size: cover;
   font-family: 'Segoe UI', system-ui, sans-serif;
+  transition: background 0.3s;
 }
 
-/* Dark mode */
+/* Dark mode text color */
 body.dark-mode {
-  background: #1a202c;
   color: #f8f9fa;
 }
+
+/* Only the player container becomes darker */
 body.dark-mode .player {
-  background: rgba(30, 30, 30, 0.95);
+  background: rgba(0, 0, 0, 0.6); /* semi-transparent dark overlay */
+  backdrop-filter: blur(10px);     /* frosted glass effect */
+  color: #f8f9fa;
 }
+
+/* Playlist items in dark mode */
 body.dark-mode .playlist li {
   color: #f8f9fa;
 }
