@@ -1,28 +1,65 @@
-<<<<<<< HEAD
-Project Title: Music Player
+# 🎵 Music Player
 
-Description:
-A simple web-based music player built using HTML, CSS, JavaScript, and Bootstrap.  
-The player allows users to play audio, manage a playlist, and interact with playback controls in a clean and responsive interface.
+> A sleek, modern, **responsive music player** built with HTML, CSS & JavaScript. Play local audio files, manage playlists, and enjoy a fully interactive experience—right in your browser!  
 
-Technologies Used:
-- HTML for structure
-- CSS (Bootstrap + custom styles) for design
-- JavaScript for interactivity and playlist management
+![Music Player Screenshot](Images/F1img.webp)  
 
-Features:
-- Play, Pause, Next, Previous, Rewind, and Forward controls
-- Progress bar with seek functionality
-- Volume control slider
-- Display of song title and artist
-- Playlist with add and delete options
-- Responsive design for desktop and mobile
+---
 
-How to Run:
-1. Open the project folder.
-2. Make sure "index.html", "css/style.css", "js/script.js", and an "assets" folder with songs (e.g., F1.mp3) are present.
-3. Open "index.html" in any modern browser (Chrome, Firefox, Edge).
-4. Use the controls and playlist to play and manage songs.
+## 🚀 Features
 
-Author: Tufailhasan Dafedar
+### 🎶 Playback
+- Play / Pause, Next, Previous  
+- Rewind 5s / Forward 5s  
+- Shuffle & Repeat  
+- Keyboard shortcuts: Space ⏯, Arrow keys ⬆️⬇️⬅️➡️  
 
+### 📂 Playlist & Library
+- Upload songs or **drag & drop** files  
+- Auto-read metadata (Title, Artist, Album Art)  
+- Remove songs easily  
+- Persistent playlist saved in browser (`localStorage`)  
+
+### 🎛️ Volume & Progress
+- Adjustable volume slider  
+- Seek via progress bar  
+- Shows **current time & duration**  
+
+### 🌗 Theme & Design
+- Light / Dark mode toggle  
+- Frosted-glass, gradient UI  
+- Responsive for **desktop, tablet & mobile**  
+
+---
+
+## 📂 Project Structure
+
+```bash
+Music-Player/
+├── index.html           # Main HTML file
+├── css/
+│   └── style.css        # Custom CSS and styles
+├── js/
+│   └── script.js        # JavaScript for player functionality
+├── assets/              # Default audio files (e.g., F1.mp3)
+├── Images/              # Background images (e.g., F1img.webp)
+└── README.md            # Project documentation
+
+## 🛠️ Technologies Used
+- HTML5
+- CSS3 + **Bootstrap 5**
+- JavaScript
+- Bootstrap Icons
+
+---
+
+## 📝 How to Use
+1. Open `index.html` in your browser.
+2. Play the **default song** or add your own via **file upload / drag & drop**.
+3. Use the playback controls, shuffle/repeat, and keyboard shortcuts.
+4. Toggle **dark/light theme** for a personalized look.
+
+---
+
+## 📧 Contact
+For any queries: [tufaildafedar0@gmail.com](mailto:tufaildafedar0@gmail.com)
