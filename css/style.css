@@ -35,7 +35,7 @@ body.dark-mode .playlist li {
 
 /* Title gradient */
 .player h1 {
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #ea9666, #f8651c);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -47,7 +47,7 @@ body.dark-mode .playlist li {
 .art {
   width: 70px;
   height: 70px;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #ea9266, #a2864b);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,7 +60,7 @@ body.dark-mode .playlist li {
 
 /* Playlist */
 .playlist li.active {
-  background: linear-gradient(135deg, #667eea, #764ba2) !important;
+  background: linear-gradient(135deg, #ea9066, #a2724b) !important;
   color: white !important;
   font-weight: 600;
   border: none !important;
@@ -83,7 +83,7 @@ body.dark-mode .playlist li {
   width: 50px;
   text-align: center;
   font-weight: 600;
-  color: #667eea;
+  color: #ea9466;
 }
 
 /* Range inputs */
@@ -96,16 +96,16 @@ input[type="range"]::-webkit-slider-thumb {
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: #667eea;
+  background: #ea9066;
   cursor: pointer;
 }
 #progress {
-  background: linear-gradient(90deg, #667eea, #764ba2);
+  background: linear-gradient(90deg, #eaaf66, #a2724b);
 }
 
 /* Buttons */
 .btn-primary {
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #eaa466, #a29b4b);
   border: none;
   border-radius: 50%;
   width: 60px;
@@ -125,7 +125,7 @@ input[type="range"]::-webkit-slider-thumb {
   border-radius: 20px;
 }
 .btn-success {
-  background: #38a169;
+  background: #a19338;
   border: none;
   border-radius: 8px;
 }
@@ -140,11 +140,11 @@ input[type="range"]::-webkit-slider-thumb {
 
 /* Drag & Drop */
 #dropZone {
-  border: 2px dashed #667eea;
+  border: 2px dashed #ea6666;
   border-radius: 10px;
   margin-top: 10px;
   transition: background 0.3s;
 }
 #dropZone.dragover {
-  background: rgba(102, 126, 234, 0.1);
+  background: rgba(234, 102, 102, 0.1);
 }
