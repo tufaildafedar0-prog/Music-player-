@@ -42,7 +42,7 @@
 
 ## 📝 How to Use
 1. Open `index.html` in your browser.
-2. Play the **default song** or add your own via **file upload / drag & drop**.
+2. Select and play the **default song** or add your own via **file upload / drag & drop**.
 3. Use the playback controls, shuffle/repeat, and keyboard shortcuts.
 4. Toggle **dark/light theme** for a personalized look.
 
